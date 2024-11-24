@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            let userName = prompt("გთხოვთ, შეიყვანეთ თქვენი სახელი და გვარი")
+            let usersBirthYear = prompt("შეიყვანეთ თქვენი დაბადების წელი");
+            let address = prompt("შეიყვანთ საცხოვრებელი ადგილის მისამართი");
+            let yearNow = 2024;
+            userName = Number(userName);
+            usersBirthYear = Number(usersBirthYear);
+            address = String(address);
+
+            alert(`გამარჯობა ${userName}, მიხარია, რომ უკვე ${yearNow - usersBirthYear} 
+            წლის ხარ და ${address} ცხოვრობ!`);
+
+        </script>
+    </body>
+</html>
