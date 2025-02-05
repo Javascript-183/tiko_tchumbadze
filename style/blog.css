@@ -1,0 +1,126 @@
+@font-face {
+    src: url(/fonts/NotoSansGeorgian.ttf);
+    font-family: "NotoSansGeorgian";
+}
+#more, #morekopen, #morehels {
+    display: none;
+}
+button {
+    background-color: #7192959e;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgb(21, 28, 28);
+}
+.blog1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    background-color: #9bc5c9;
+}
+.imgtusheti {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+}
+
+.imgtusheti img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    -webkit-transform: skew(5deg);
+        -ms-transform: skew(5deg);
+            transform: skew(5deg);
+}
+
+.imgtusheti img:hover {
+    -webkit-transform: rotate(3deg);
+        -ms-transform: rotate(3deg);
+            transform: rotate(3deg);
+}
+.infotusheti p {
+    width: 400px;
+    text-align: justify;
+}
+.infotusheti h2 {
+    font-family: "NotoSansGeorgian";
+    text-shadow: 3px 3px 3px #046c76;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 3px #043247;
+            box-shadow: 3px 3px 3px #043247;
+    text-align: center;
+}
+
+.blog2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 10px;
+    gap: 5px;
+}
+
+.kopenhageni, .helsinki {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: 2px solid #046c76;
+}
+
+.infokopen, .infohelsinki {
+    text-align: justify;
+    padding: 10px;
+}
+.kopentitle, .helstitle {
+    font-family: "NotoSansGeorgian";
+    text-shadow: 3px 3px 3px #046c76;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.kopenimg1, .helsimg1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.kopenimg1 img, .helsimg1 img {
+    width: 200px;
+    height: 150px;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+}
+
+.kopenimg1 img:hover, .helsimg1 img:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.kopenimg2 img, .helsimg2 img {
+    width: 190px;
+    height: 300px;
+    border-radius: 5px;
+}

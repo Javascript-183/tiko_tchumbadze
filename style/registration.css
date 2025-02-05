@@ -1,0 +1,44 @@
+main h2 {
+    margin-top: 0;
+    text-align: center;
+    text-shadow: 0px 2px 3px rgb(11, 16, 72);
+    padding: 15px;
+    color: rgb(77, 3, 85);
+    -webkit-box-shadow: 5px 10px 20px rgb(128, 128, 128);
+            box-shadow: 5px 10px 20px rgb(128, 128, 128);
+}
+main {
+    height: 700px;
+}
+
+#registerForm {
+    text-align: center;
+}
+div label, div span, div button {
+    color: #25417d;
+    font-size: 20px;
+}
+
+#firstLastName, #email, #username, #password {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #071415;
+    border-width: 3px;
+}
+
+#registerbutton {
+    padding: 7px;
+    background-color:#55989e;
+    color: #490944;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 1s ease-in-out;
+}
+
+#registerbutton:hover {
+    font-size: 20px;
+    transform: scale(1.1);
+}

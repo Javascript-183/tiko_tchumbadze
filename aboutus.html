@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>მოხეტიალე</title>
+        <link rel="stylesheet" href="./style/indexStyle.css">
+        <link rel="stylesheet" href="./style/aboutus.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Tinatin Tchumbadze">
+    </head>
+    <body>
+        <header>
+            <div class="headerinfo">
+                <div class="logoImg">
+                    <img src="./images/logo.jpg" alt="logo">
+                    <h2><a href="./index.html">მოხეტიალე</a></h2>
+                </div>
+                <nav>
+                    <a href="./index.html">მთავარი</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">ბლოგი 
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                        <div class="dropdown-content">
+                          <a href="./blog.html">თუშეთი</a>
+                          <a href="./blog.html">კოპენჰაგენი</a>
+                          <a href="./blog.html">ჰელსინკი</a>
+                        </div>
+                      </div>
+                      <a href="./aboutus.html">ჩვენს შესახებ</a>
+                      <a href="./registration.html">რეგისტრაცია</a>
+                      <a href="./login.html">შესვლა</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="aboutme">
+                <p id="myinfo"> <span style="font-size: 30px; font-weight: bolder;">გმადლობთ, რომ ესტუმრეთ ჩემს გვერდს! </span><br><br>
+                    მე ვარ თინათინი, საქართველოდან, პროფესიით იურისტი, 
+                    მიზიდავს პერიოდულად სხვადასხვა მიმართულებით განათლების მიღება,
+                    რათა თითოეულ სფეროსთან დაკავშირებით მეტ-ნაკლები წარმოდგენა მქონდეს, 
+                    რაც მეხმარება მუდმივ განვითარებაში. <br> <br>
+                    ბავშვობიდან მიზიდავდა ახალ-ახალი ადგილების მონახულება/აღმოჩენა.
+                    2018 წლამდე სახეტიალო არეალს ძირითადად ქვეყნის შიგნით 
+                    ტერიტორიები წარმოადგენდა. ჩემი სამშობლო ხომ მდიდარია 
+                    ბუნების მრავალფეროვნებით, მთითა და ბარით, ზღვით, მინი უდაბნოთი,
+                    ზამთარში თოვლით და ზაფხულში მწველი მზით...</p>
+                <div class="imgfromgeorgia">
+                    <img id="georgia1" src="./images/georgia1.jpg" alt="შატილი">
+                    <img id="georgia2" src="./images/georgia2.jpg" alt="ხედი გერგეთიდან">
+                    <img id="georgia3" src="./images/georgia3.jpg" alt="თუშეთი">
+                </div>
+            </div>
+            <div class="ineurope">
+                <p id="myinfo2">2018 წლიდან დავიწყე ქვეყნის გარეთ მოგზაურობა და მას შემდეგ
+                    განსაკუთრებით "მოწამლული" ვარ ამ "დაავადებით", რასაც ხეტიალი 
+                    ჰქვია დედამიწის გარშემო. <br>იმოგზაურეთ ჩემთან ერთად და აღმოაჩინეთ სამყარო!</p>
+                <input id="userInput" placeholder="მოძებნეთ სასურველი ქალაქის ფოტო" onkeyup="searchdestination()">
+                <div class="imgfromeurope">
+                    <div class="filterDiv" >
+                        <img id="europe1" src="./images/europe1.jpg" alt="ვენეცია">
+                        <p>ვენეცია</p>
+                    </div>
+                    <div class="filterDiv">
+                        <img id="europe2" src="./images/europe2.jpg" alt="ლისაბონი">
+                        <p>ლისაბონი</p>
+                    </div>
+                    <div class="filterDiv">
+                        <img id="europe3" src="./images/europe3.jpg" alt="ბუდაპეშტი">
+                        <p>ბუდაპეშტი</p>
+                    </div>
+                    <div class="filterDiv">
+                        <img id="europe4" src="./images/europe4.jpg" alt="რიგა">
+                        <p>რიგა</p>
+                    </div>
+                </div>
+            </div>
+            <div class="imgfromeurope2">
+                <div class="filterDiv">
+                    <img src="./images/europe5.jpg">
+                    <p>ბრიუგე</p>
+                </div>
+                <div class="filterDiv">
+                    <img src="./images/europe6.jpg">
+                    <p>ჰალშტატი</p>
+                </div>
+                <div class="filterDiv">
+                    <img src="./images/europe7.jpg">
+                    <p>პერასტი</p>
+                </div>
+                <div class="filterDiv">
+                    <img src="./images/europe8.jpg">
+                    <p>კრაკოვი</p>
+                </div>
+            </div>
+            <section class="container">
+                <p>მოიძიეთ თქვენთვის საჭირო ინფორმაცია MediaWiki-ს დახმარებით, მათ შორის სამოგზაურო თემებზე.</p>
+                <div id="wiki-content">
+                    <input id="search-input" type="text" class="form-control mb-3" placeholder="შეიყვანე საკვანძო სიტყვა" />
+                    <button id="search-btn" class="btn btn-primary mb-3">ძებნა</button>
+                    <div id="result-container"></div>
+                </div>
+            </section>
+        <script type="text/javascript" src="/scripts/searchdestination.js"></script>
+        <script type="text/javascript" src="/scripts/searchbyAPI.js"></script>
+        </main>
+        <footer>
+            <div class="Copyright">
+                გვერდი შექმნილია <span style="color: #795f5f;"> თინათინ ჭუმბაძის </span> მიერ — Copyright 2024
+            </div>
+            <img src="./images/footerimg.jpg">
+            <div class="icon-bar2">
+                <a href="https://www.facebook.com/tiko.tchumbadze?mibextid=kFxxJD
+                    " target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://x.com/tiko_chumbadze?t=uuC4XoaR9yFXV1yJeIPjSw&s=07" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/tiko_tchumbadze/profilecard/?igsh=MXNvZmZkNHBzb3l1dw==" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/tiko-tchumbadze-760a47b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://youtube.com/@tikochumbadze5516?si=Sotr4Er8ZZQNuqxG" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
+            </div>
+        </footer>
+    </body>
+</html>
