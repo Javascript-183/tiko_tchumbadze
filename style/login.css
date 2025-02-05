@@ -1,0 +1,43 @@
+main p {
+    font-size: 20px;
+    margin-top: 0;
+    padding: 20px;
+    color: #25417d;
+}
+main {
+    height: 700px;
+}
+
+form {
+    text-align: center;
+    padding: 100px;
+}
+
+form label, form span, form button {
+    color: #25417d;
+    font-size: 20px;
+}
+
+#username, #password {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #071415;
+    border-width: 3px;
+}
+
+form button {
+    padding: 7px;
+    background-color:#55989e;
+    color: #490944;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 1s ease-in-out;
+}
+
+form button:hover {
+    font-size: 20px;
+    transform: scale(1.1);
+}

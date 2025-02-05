@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>მოხეტიალე</title>
+        <link rel="stylesheet" href="./style/indexStyle.css">
+        <link rel="stylesheet" href="./style/login.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Tinatin Tchumbadze">
+    </head>
+    <body>
+        <header>
+            <div class="headerinfo">
+                <div class="logoImg">
+                    <img src="./images/logo.jpg" alt="logo">
+                    <h2><a href="./index.html">მოხეტიალე</a></h2>
+                </div>
+                <nav>
+                    <a href="./index.html">მთავარი</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">ბლოგი 
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                        <div class="dropdown-content">
+                          <a href="./blog.html">თუშეთი</a>
+                          <a href="./blog.html">კოპენჰაგენი</a>
+                          <a href="./blog.html">ჰელსინკი</a>
+                        </div>
+                      </div>
+                      <a href="./aboutus.html">ჩვენს შესახებ</a>
+                      <a href="./registration.html">რეგისტრაცია</a>
+                      <a href="./login.html">შესვლა</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <p>ვებ-გვერდზე შესასვლელად, გთხოვთ შეიყვანოთ თქვენი მონაცემები:</p>
+            <form>
+                <label for="username">მომხმარებლის სახელი:</label><br>
+                <input id="username" type="text" name="username">
+                <br>
+                <br>
+                <label for="password">პაროლი:</label><br>
+                <input id="password" type="text" name="password">
+                <br>
+                <br>
+                <input id="savePassword" type="checkbox">
+                <span>პაროლის შენახვა</span>
+                <br>
+                <br>
+                <button type="submit" onclick="functionLogin()">შესვლა</button>
+                <p id="error"></p>
+                <div id="result"></div>
+            </form>
+            <script type="text/javascript" src="/scripts/login.js"></script>
+        </main>
+        <footer>
+            <div class="Copyright">
+                გვერდი შექმნილია <span style="color: #795f5f;"> თინათინ ჭუმბაძის </span> მიერ — Copyright 2024
+            </div>
+            <img src="./images/footerimg.jpg">
+            <div class="icon-bar2">
+                <a href="https://www.facebook.com/tiko.tchumbadze?mibextid=kFxxJD
+                    "target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://x.com/tiko_chumbadze?t=uuC4XoaR9yFXV1yJeIPjSw&s=07" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/tiko_tchumbadze/profilecard/?igsh=MXNvZmZkNHBzb3l1dw==" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/tiko-tchumbadze-760a47b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://youtube.com/@tikochumbadze5516?si=Sotr4Er8ZZQNuqxG" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
+            </div>
+        </footer>
+    </body>
+</html>

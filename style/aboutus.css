@@ -1,0 +1,183 @@
+.aboutme {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack:distribute;
+        justify-content:space-around;
+}
+:root {
+    --abouttextcolor:rgb(14, 100, 100);
+}
+#myinfo {
+    color: var(--abouttextcolor);
+    font-size: 20px;
+    width: 500px;
+}
+.imgfromgeorgia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 800px;
+}
+
+#georgia1 {
+    position: relative;
+    margin-top: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+#georgia1:hover {
+    -webkit-transform:rotate(5deg);
+        -ms-transform:rotate(5deg);
+            transform:rotate(5deg);
+}
+#georgia2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: 100 220;
+    border-radius: 5px;
+    -webkit-transition: ease-in-out 1s;
+    -o-transition: ease-in-out 1s;
+    transition: ease-in-out 1s;
+}
+
+#georgia2:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+#georgia3 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin: 250 550;
+    border-radius: 10px;
+    
+}
+#georgia3:hover {
+    -webkit-transform: skew(7deg);
+        -ms-transform: skew(7deg);
+            transform: skew(7deg);
+}
+
+.ineurope {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
+}
+
+.ineurope p, .imgfromeurope2 p {
+    color: var(--abouttextcolor);
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(203, 211, 241);
+    border-radius: 15px;
+}
+.imgfromeurope {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    gap: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#europe1 {
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+#europe2 {
+    width: 300px;
+    height: 400px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+#europe3 {
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+#europe4 {
+    width: 300px;
+    height: 400px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.imgfromeurope2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.imgfromeurope2 img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.imgfromeurope img:hover, .imgfromeurope2 img:hover {
+    -webkit-box-shadow: 5px 5px 20px rgb(9, 98, 98);
+            box-shadow: 5px 5px 20px rgb(9, 98, 98);
+}
+#userInput {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#userInput, #search-input {
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgb(80, 107, 107);
+    background-color: rgb(202, 209, 236);
+}
+section p {
+    color: var(--abouttextcolor);
+    font-size: 20px;
+    text-align: left;
+    background-color: #55989e;
+    color: rgb(73, 9, 36);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+#search-btn {
+    background-color: #55989e;
+    color: rgb(73, 9, 36);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+}

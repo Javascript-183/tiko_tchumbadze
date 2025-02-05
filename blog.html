@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <title>მოხეტიალე</title>
+        <link rel="stylesheet" href="./style/indexStyle.css">
+        <link rel="stylesheet" href="./style/blog.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Tinatin Tchumbadze">
+    </head>
+    <body>
+        <header>
+            <div class="headerinfo">
+                <div class="logoImg">
+                    <img src="./images/logo.jpg" alt="logo">
+                    <h2><a href="./index.html">მოხეტიალე</a></h2>
+                </div>
+                <nav>
+                    <a href="./index.html">მთავარი</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">ბლოგი 
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                        <div class="dropdown-content">
+                          <a href="./blog.html">თუშეთი</a>
+                          <a href="./blog.html">კოპენჰაგენი</a>
+                          <a href="./blog.html">ჰელსინკი</a>
+                        </div>
+                      </div>
+                      <a href="./aboutus.html">ჩვენს შესახებ</a>
+                      <a href="./registration.html">რეგისტრაცია</a>
+                      <a href="./login.html">შესვლა</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="blog1">
+                <div class="imgtusheti">
+                    <img src="./images/tusheti1.jpg" alt="სოფელი ბოჭორნა">
+                    <img src="./images/tusheti2.jpg" alt="სოფელი კვავლო">
+                    <img src="./images/tusheti3.jpg" alt="სოფელი შენაქო">
+                </div>
+                <div class="infotusheti">
+                    <h2>თუშეთი</h2>
+                    <p>საქართველოს ისტორიულ-გეოგრაფიული მხარე.
+                        აღმოსავლეთით თუშეთს საზღვრავს დაღესტანი, 
+                        დასავლეთით ფშავი და ხევსურეთი, 
+                        ჩრდილოეთით ჩეჩნეთი, სამხრეთით კახეთი.
+                        თუშეთის ცენტრად ითვლება სოფელი 
+                        <span style="color: rgb(3, 87, 59); font-size: 20px;">ომალო</span><span id="dots">...</span><span id="more">.<br>
+                        რამდენადაც სახიფათოა თუშეთამდე მისასვლელი გზა, 
+                        იმაზე ბევრად მეტია ის სილამაზე, რაც ამ მხარეში დაგხვდებათ.
+                        ეს არის კუთხე საქართველოში, რომლის ბუნებასაც
+                        დღეისათვის ყველაზე ნაკლებად ეტყობა ადამიანის "ჩარევა".<br>
+                        გამოირჩევა არქიტექტურით, შენარჩუნებულია უძველესი წეს-ჩვეულებები,
+                        თუშეთის ლანდშაფტი საქართველოს დაცული ტერიტორიების ნაწილია. 
+                        გამორჩეულად ლამაზია აქაური ალპური მდელოები, არყისა და ფიჭვის 
+                        ტყეები, რომელთა დიდი ნაწილი პირველქმნილია. თუშეთში ფიჭვის ხეები 
+                        ზღვის დონიდან 2650 მეტრზეც  შეგხვდება, 
+                        რაც უნიკალური შემთხვევაა კავკასიისთვის.<br>
+                        მიუვალი კლდეები ორბების, ბატკანძერებისა და მთის არწივების სამფლობელოა. 
+                        აქ ყველაზე სწრაფი ფრინველი - შევარდენიც გვხვდება.<br>
+                        თუშეთში აუცილებლად უნდა გასინჯო თუშური ხინკალი, რომელიც ხშირად ხანჯლით დაკეპილი
+                        ხორცით მზადდება, კოტორი - თუშური ხაჭაპური.
+                        ალური - ქერის ალაოსგან მიღებული რიტუალური სასმელი, რომელსაც ხშირად 
+                        დღესასწაულებზე ხარშავენ. აღსანიშნავია, რომ თუშეთში აკრძალულია ღორის 
+                        ხორცის არათუ შეტანა, იქაურები დღმდე არც ჭამენ მას და ტურისტებსაც ხშირად 
+                        სთხოვენ დაიცვან იქ ყოფნისას მათი წესები.<br>
+                        თუშეთში მდებარეობს ევროპის ყველაზე მაღალი დასახლებული პუნქტი სოფელი 
+                        <span style="color: rgb(3, 87, 59); font-size: 20px;">ბოჭორნა</span>.</span>
+                    </p>
+                    <button onclick="tushetiReadMore()" id="myBtn">შეიტყვე მეტი >></button>
+                </div>
+                <div class="imgtusheti">
+                    <img src="./images/tusheti4.jpg" alt="სოფელი თუშეთში">
+                    <img src="./images/tusheti5.jpg" alt="სოფელი თუშეთში">
+                    <img src="./images/tusheti6.jpg" alt="სოფელი ომალო">
+                </div>
+            </div>
+            <div class="blog2">
+                <div class="kopenhageni">
+                    <div class="kopentitle">კოპენჰაგენი</div>
+                    <div class="kopenimg1">
+                        <img src="./images/kopenhagen4.jpg">
+                        <img src="./images/kopenhagen6.jpg">
+                    </div>
+                    <div class="infokopen">
+                        დანიის დედაქალაქი, სადაც ისტორია თანამედროვეობას ერწყმის<span id="kopendots">...</span><span id="morekopen">. <br>
+                        დანია ფინეთთან, ისლანდიასთან და შვედეთთან ერთად დასახელებულია, როგორც ყველაზე ბედნიერი 
+                        ქვეყანა, გამოირჩევა სოციალური სერვისებით, სიცოცხლის ხანგრძლივობით.
+                        კოპენჰაგენი მსოფლიოში ველოსიპედებთან ყველაზე მეგობრული ქალაქია.
+                        დანიის ბედნიერების ინდექსი ბევრ სხვადასხვა კრიტერიუმზეა დამოკიდებული, 
+                        მათ შორის მთავრობისადმი ნდობაზე, ეკონომიკურ უსაფრთხოებაზე, 
+                        დამოუკიდებლობაზე, სამოქალაქო ჩართულობაზე და 
+                        ზოგადად, ცხოვრების დაბალანსებულ სტილზე.</span>
+                        <button onclick="kopenReadMore()" id="mykopenBtn">შეიტყვე მეტი >></button>
+                    </div>
+                    <div class="kopenimg2">
+                        <img src="./images/kopenhagen1.jpg">
+                        <img src="./images/kopenhagen2.jpg">
+                        <img src="./images/kopenhagen3.jpg">
+                        <img src="./images/kopenhagen5.jpg">
+                    </div>
+                </div>
+                <div class="helsinki">
+                    <div class="helstitle">ჰელსინკი</div>
+                    <div class="helsimg1">
+                        <img src="./images/helsinki1.jpg">
+                        <img src="./images/helsinki2.jpg">
+                    </div>
+                    <div class="infohelsinki">
+                    მსოფლიოში ყველაზე ბედნიერი ქვეყანა ფინეთია<span id="helsdots">...</span><span id="morehels">. 
+                    მისი მთავარი საიდუმლო განათლებაშია. ფინეთი მუდმივად 
+                    სახელდება მსოფლიოს ყველაზე ძლიერი საგანმანათლებლო სისტემის 
+                    მქონე ქვეყნად. მისი ასეთი წარმატება მასწავლებლებისადმი პატივისცემითაა 
+                    განპირობებული. ცხოვრების მაღალი ხარისხი და მშვიდი ტემპი, ტყეები, 
+                    ტბები და ველური ბუნება — ესაა ქვეყანა, რომელიც ყველაფერ 
+                    საუკეთესოს აერთიანებს და ამით სიაში პირველ ადგილს იკავებს.</span> 
+                    <button onclick="helsReadMore()" id="myhelsBtn">შეიტყვე მეტი >></button>
+                    </div>
+                    <div class="helsimg2">
+                        <img src="./images/helsinki3.jpg">
+                        <img src="./images/helsinki4.jpg">
+                        <img src="./images/helsinki5.jpg">
+                        <img src="./images/helsinki6.jpg">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="Copyright">
+                გვერდი შექმნილია <span style="color: #795f5f;"> თინათინ ჭუმბაძის </span> მიერ — Copyright 2024
+            </div>
+            <img src="./images/footerimg.jpg">
+            <div class="icon-bar2">
+                <a href="https://www.facebook.com/tiko.tchumbadze?mibextid=kFxxJD
+                    " target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://x.com/tiko_chumbadze?t=uuC4XoaR9yFXV1yJeIPjSw&s=07" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/tiko_tchumbadze/profilecard/?igsh=MXNvZmZkNHBzb3l1dw==" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/tiko-tchumbadze-760a47b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://youtube.com/@tikochumbadze5516?si=Sotr4Er8ZZQNuqxG" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
+            </div>
+        </footer>
+        <script  src="/scripts/readMoreFunction.js"></script>
+    </body>
+</html>
